@@ -159,8 +159,8 @@ a:hover, a:active {
 .portfolio-content figure a p {
     display: block;
     position: absolute;
-    bottom: 80px;
-    left: 200px;
+    bottom: 30px;
+    left: 140px;
     font-size: 30px;
     font-weight: 600;
 }
@@ -177,6 +177,38 @@ a:hover, a:active {
         position: absolute;
         bottom: 40px;
         left: 150px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio-content figure a p {
+        display: block;
+        position: absolute;
+        bottom: 40px;
+        left: 150px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .portfolio-content figure a p {
+        display: block;
+        position: absolute;
+        bottom: 40px;
+        left: 150px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .portfolio-content figure a p {
+        display: block;
+        position: absolute;
+        bottom: 30px;
+        left: 140px;
         font-size: 30px;
         font-weight: 600;
     }
