@@ -13,15 +13,15 @@ img {
 # Links
 --------------------------------------------------------------*/
 a {
-    color: royalblue;
+    color: rgb(0, 0, 0);
 }
 
 a:visited {
-    color: purple;
+    color: rgb(0, 0, 0);
 }
 
 a:hover, a:focus, a:active {
-    color: midnightblue;
+    color: rgb(0, 0, 0);
 }
 
 a:focus {
@@ -156,11 +156,30 @@ a:hover, a:active {
     margin-left: 100px;
 }
 
+.portfolio-content figure a p {
+    display: block;
+    position: absolute;
+    bottom: 80px;
+    left: 200px;
+    font-size: 30px;
+    font-weight: 600;
+}
 .portfolio-content figure img {
     display: block;
     width: 80%;
     height: auto;
     min-height: 80%;
+}
+
+@media screen and (max-width: 576px) {
+    .portfolio-content figure a p {
+        display: block;
+        position: absolute;
+        bottom: 40px;
+        left: 150px;
+        font-size: 30px;
+        font-weight: 600;
+    }
 }
 
 .portfolio-content .entry-content {
