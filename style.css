@@ -156,62 +156,11 @@ a:hover, a:active {
     margin-left: 100px;
 }
 
-.portfolio-content figure a p {
-    display: block;
-    position: absolute;
-    bottom: 50px;
-    left: 150px;
-    font-size: 30px;
-    font-weight: 600;
-}
 .portfolio-content figure img {
     display: block;
     width: 80%;
     height: auto;
     min-height: 80%;
-}
-
-@media screen and (max-width: 576px) {
-    .portfolio-content figure a p {
-        display: block;
-        position: absolute;
-        bottom: 40px;
-        left: 150px;
-        font-size: 30px;
-        font-weight: 600;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .portfolio-content figure a p {
-        display: block;
-        position: absolute;
-        bottom: 40px;
-        left: 150px;
-        font-size: 30px;
-        font-weight: 600;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .portfolio-content figure a p {
-        display: block;
-        position: absolute;
-        bottom: 40px;
-        left: 150px;
-        font-size: 30px;
-        font-weight: 600;
-    }
-}
-@media screen and (max-width: 1200px) {
-    .portfolio-content figure a p {
-        display: block;
-        position: absolute;
-        bottom: 30px;
-        left: 140px;
-        font-size: 30px;
-        font-weight: 600;
-    }
 }
 
 .portfolio-content .entry-content {
