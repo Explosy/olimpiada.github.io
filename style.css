@@ -159,8 +159,8 @@ a:hover, a:active {
 .portfolio-content figure a p {
     display: block;
     position: absolute;
-    bottom: 30px;
-    left: 140px;
+    bottom: 50px;
+    left: 150px;
     font-size: 30px;
     font-weight: 600;
 }
